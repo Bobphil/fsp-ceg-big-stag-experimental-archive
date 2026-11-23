@@ -24,8 +24,7 @@ jobs:
           shopt -s nullglob
           files=(FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1*.zip)
           test ${#files[@]} -ge 1
-          printf 'path=%s
-' "${files[0]}" >> "$GITHUB_OUTPUT"
+          echo "path=${files[0]}" >> "$GITHUB_OUTPUT"
           echo "Using payload: ${files[0]}"
 
       - name: Unpack frozen publication payload
