@@ -4,6 +4,8 @@ title: "FSP-CEG-BIG-STAG Experimental Archive"
 version: "1.1.0"
 date-released: "2026-11-23"
 type: software
+doi: "10.5281/zenodo.24467051"
+url: "https://doi.org/10.5281/zenodo.24467051"
 authors:
   - family-names: "Mertzman"
     given-names: "Robert"
