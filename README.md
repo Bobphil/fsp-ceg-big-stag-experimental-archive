@@ -1,7 +1,10 @@
 # FSP-CEG-BIG-STAG Experimental Archive
 
-**Release target:** v1.1.0  
-**Status:** executable reproducibility archive; public-release staging repository
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24467051.svg)](https://doi.org/10.5281/zenodo.24467051)
+
+**Release:** v1.1.0  
+**Status:** **PUBLIC, DOI-ARCHIVED, EXECUTABLE REPRODUCIBILITY PASS**  
+**Zenodo version DOI:** [10.5281/zenodo.24467051](https://doi.org/10.5281/zenodo.24467051)
 
 This repository is the publication home for the Full-Stack Philosophy (FSP), Corrigible Ethical Governance (CEG), BIG STAG, recursive-inquiry, and organizational/emergence synthetic experimental lineage.
 
@@ -11,6 +14,8 @@ Fresh local archive verification reproduced:
 - **FSP-EMERGENT-LEVELS-1:** 300/300 PASS
 - Node.js **v22.16.0**
 - npm **10.9.2**
+
+The public GitHub Actions reproducibility workflow also passes both canonical harnesses.
 
 ## Claim ceiling
 
@@ -41,9 +46,13 @@ Expected results are 269/269 PASS and 300/300 PASS respectively.
 
 ## DOI publication
 
-This repository includes `.zenodo.json` as the authoritative Zenodo GitHub-release metadata and `CITATION.cff` for GitHub citation display.
+The immutable public release **v1.1.0** is archived by Zenodo as:
 
-The intended release tag is **v1.1.0**. The Zenodo **version DOI** minted for that immutable release should be cited by the accompanying essay and future scholarly references.
+**Mertzman, Robert. FSP-CEG-BIG-STAG Experimental Archive, v1.1.0. Zenodo. 10.5281/zenodo.24467051.**
+
+Version DOI: [10.5281/zenodo.24467051](https://doi.org/10.5281/zenodo.24467051)
+
+Published scholarly claims that depend on this frozen reproducibility archive should cite this **version DOI**, rather than only the moving GitHub default branch.
 
 ## Licensing
 
