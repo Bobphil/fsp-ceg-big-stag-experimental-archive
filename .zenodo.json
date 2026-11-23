@@ -1,0 +1,10 @@
+{
+  "creators": [{"name":"Mertzman, Robert"}],
+  "title":"FSP-CEG-BIG-STAG Experimental Archive",
+  "version":"1.1.0",
+  "access_right":"open",
+  "upload_type":"software",
+  "language":"eng",
+  "keywords":["Full-Stack Philosophy","FSP","Corrigible Ethical Governance","CEG","BIG STAG","computational philosophy","agent-based simulation","plural governance","corrigibility","reproducibility","synthetic experiments"],
+  "description":"Executable reproducibility archive for the Full-Stack Philosophy (FSP), Corrigible Ethical Governance (CEG), BIG STAG, recursive-inquiry, and organizational/emergence synthetic experimental lineage. The archive preserves historical source packages, runnable snapshots, audits, acceptance records, fresh rerun receipts, provenance maps, claim ceilings, and checksum manifests. Fresh verification reproduced 269/269 tests for the BIG STAG 2F lineage and 300/300 tests for the inherited emergence lineage. Computational reproducibility does not establish empirical validity, real-world effectiveness, or normative superiority."
+}
