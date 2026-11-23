@@ -1,0 +1,34 @@
+name: Reproducibility
+
+on:
+  push:
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.16.0'
+
+      - name: Verify frozen payload exists
+        run: test -f FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1.zip
+
+      - name: Unpack frozen publication payload
+        run: |
+          rm -rf _archive
+          mkdir _archive
+          unzip -q FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1.zip -d _archive
+
+      - name: BIG STAG 2F harness
+        working-directory: _archive/FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1/06_executable_corpus/runnable_snapshots/UCP-XR-EXPERIMENT-2F-CHANNEL-ABLATION
+        run: npm run test:all
+
+      - name: Emergent Levels harness
+        working-directory: _archive/FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1/06_executable_corpus/runnable_snapshots/FSP-EMERGENT-LEVELS-1
+        run: npm run test:all:emergent-levels
