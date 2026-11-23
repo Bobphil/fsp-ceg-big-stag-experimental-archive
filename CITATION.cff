@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite it using the metadata below."
+title: "FSP-CEG-BIG-STAG Experimental Archive"
+version: "1.1.0"
+date-released: "2026-11-23"
+type: software
+authors:
+  - family-names: "Mertzman"
+    given-names: "Robert"
+abstract: >-
+  Executable reproducibility archive for the Full-Stack Philosophy (FSP),
+  Corrigible Ethical Governance (CEG), BIG STAG, recursive-inquiry, and
+  organizational/emergence synthetic experimental lineage.
+repository-code: "https://github.com/Bobphil/fsp-ceg-big-stag-experimental-archive."
