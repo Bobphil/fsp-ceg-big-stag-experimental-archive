@@ -16,14 +16,23 @@ jobs:
         with:
           node-version: '22.16.0'
 
-      - name: Verify frozen payload exists
-        run: test -f FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1.zip
+      - name: Locate frozen payload
+        id: payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1*.zip)
+          test ${#files[@]} -ge 1
+          printf 'path=%s
+' "${files[0]}" >> "$GITHUB_OUTPUT"
+          echo "Using payload: ${files[0]}"
 
       - name: Unpack frozen publication payload
         run: |
           rm -rf _archive
           mkdir _archive
-          unzip -q FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1.zip -d _archive
+          unzip -q "${{ steps.payload.outputs.path }}" -d _archive
 
       - name: BIG STAG 2F harness
         working-directory: _archive/FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1/06_executable_corpus/runnable_snapshots/UCP-XR-EXPERIMENT-2F-CHANNEL-ABLATION
