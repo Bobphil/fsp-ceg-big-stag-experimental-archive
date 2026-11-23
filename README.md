@@ -22,17 +22,17 @@ This archive establishes computational rerunnability of the included determinist
 
 ## Frozen payload
 
-The complete checksum-frozen publication build is distributed as:
+The complete checksum-frozen publication build is distributed as a root-level ZIP whose name begins:
 
-`FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1.zip`
+`FSP-CEG-BIG-STAG-GITHUB-ZENODO-PUBLICATION-1.1`
+
+GitHub may append a suffix such as `(1)` to an uploaded filename; the reproducibility workflow accepts that harmless filename variation.
 
 The payload contains the exact recovered historical ZIP packages, runnable snapshots, audits, acceptance records, fresh rerun receipts, provenance maps, claim ceilings, and SHA-256 manifests.
 
-Until that payload has been uploaded to this repository, the GitHub Actions reproducibility workflow will report the payload as pending rather than falsely claiming a repository-level rerun.
-
 ## Reproduction
 
-After the frozen payload is present, the workflow reconstructs the publication tree and runs:
+The workflow reconstructs the publication tree and runs:
 
 - `npm run test:all` in the BIG STAG 2F runnable snapshot
 - `npm run test:all:emergent-levels` in the FSP Emergent Levels runnable snapshot
