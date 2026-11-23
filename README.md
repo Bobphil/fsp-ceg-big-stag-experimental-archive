@@ -47,9 +47,11 @@ The intended release tag is **v1.1.0**. The Zenodo **version DOI** minted for th
 
 ## Licensing
 
-No license has been silently assigned. The recommended publication choice is:
+This archive explicitly adopts a dual-license scheme:
 
-- executable code: **MIT**
-- prose, audits, explanatory documentation, and original non-code material: **CC BY 4.0**
+- **Original executable code, scripts, and test harnesses:** MIT License
+- **Original prose, audits, explanatory documentation, diagrams, tables, and other non-code research materials:** CC BY 4.0
 
-The author should explicitly adopt or modify that recommendation before the Zenodo release is published.
+See [LICENSE.md](LICENSE.md), [LICENSE-CODE](LICENSE-CODE), and [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+
+Third-party materials are not relicensed and remain subject to their original terms.
