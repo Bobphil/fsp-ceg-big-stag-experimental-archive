@@ -1,0 +1,16 @@
+{
+  "build": "FSP-SRF-WARRANT-CROSSING-STRESS-1",
+  "status": "ADVERSARIAL STRESS PASS / CORE PATCHES INDICATED",
+  "baseline_tests": {"pass": 25, "fail": 0},
+  "adversarial_tests": {"pass": 15, "fail": 0},
+  "combined_tests": {"pass": 40, "fail": 0},
+  "findings": [
+    {"code":"WC-STRESS-F01","name":"Ambiguous warrant","core_patch_indicated":true},
+    {"code":"WC-STRESS-F02","name":"Conflicting standing","core_patch_indicated":true},
+    {"code":"WC-STRESS-F03","name":"Strategic misrepresentation","core_patch_indicated":true},
+    {"code":"WC-STRESS-F04","name":"Coalition capture","core_patch_indicated":true},
+    {"code":"WC-STRESS-F05","name":"Stale residue","core_patch_indicated":true},
+    {"code":"WC-STRESS-F06","name":"Competing REOPEN triggers","core_patch_indicated":true},
+    {"code":"WC-STRESS-F07","name":"Broad REOPEN audit gap","core_patch_indicated":true}
+  ]
+}
