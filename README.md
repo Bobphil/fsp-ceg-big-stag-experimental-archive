@@ -1,17 +1,20 @@
 # FSP-CEG-BIG-STAG Experimental Archive
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24467051.svg)](https://doi.org/10.5281/zenodo.24467051)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24511927.svg)](https://doi.org/10.5281/zenodo.24511927)
 
-**Release:** v1.1.0  
+**Archive version:** v1.2.0  
 **Status:** **PUBLIC, DOI-ARCHIVED, EXECUTABLE REPRODUCIBILITY PASS**  
-**Zenodo version DOI:** [10.5281/zenodo.24467051](https://doi.org/10.5281/zenodo.24467051)
+**Zenodo version DOI:** [10.5281/zenodo.24511927](https://doi.org/10.5281/zenodo.24511927)
 
 This repository is the publication home for the Full-Stack Philosophy (FSP), Corrigible Ethical Governance (CEG), BIG STAG, recursive-inquiry, and organizational/emergence synthetic experimental lineage.
 
-Fresh local archive verification reproduced:
+Fresh verification across the published lineage includes:
 
 - **BIG STAG / UCP-XR Experiment 2F:** 269/269 PASS
 - **FSP-EMERGENT-LEVELS-1:** 300/300 PASS
+- **FSP-SRF Warrant Crossing 2 baseline:** 25/25 PASS
+- **FSP-SRF Warrant Crossing Stress 1:** 40/40 PASS
+- **FSP-SRF Warrant Crossing 2.1:** 40/40 PASS
 - Node.js **v22.16.0**
 - npm **10.9.2**
 
@@ -46,13 +49,13 @@ Expected results are 269/269 PASS and 300/300 PASS respectively.
 
 ## DOI publication
 
-The immutable public release **v1.1.0** is archived by Zenodo as:
+The published archive **Version 1.2.0** is archived by Zenodo as:
 
-**Mertzman, Robert. FSP-CEG-BIG-STAG Experimental Archive, v1.1.0. Zenodo. 10.5281/zenodo.24467051.**
+**Mertzman, R. (2026). FSP-CEG-BIG-STAG Experimental Archive (Version 1.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24511927**
 
-Version DOI: [10.5281/zenodo.24467051](https://doi.org/10.5281/zenodo.24467051)
+Version DOI: [10.5281/zenodo.24511927](https://doi.org/10.5281/zenodo.24511927)
 
-Published scholarly claims that depend on this frozen reproducibility archive should cite this **version DOI**, rather than only the moving GitHub default branch.
+Published scholarly claims that depend on the v1.2.0 archive should cite this **version DOI**. Claims about the warrant-crossing executable evidence may additionally cite immutable GitHub commit `cec329256c3b34c1697006544d7b95146acd689a`, which is the public source binding for that corpus.
 
 ## Licensing
 
