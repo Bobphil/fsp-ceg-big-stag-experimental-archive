@@ -1,6 +1,6 @@
 # FSP-SRF-WARRANT-CROSSING-1.2 — PUBLIC BINDING RECORD
 
-Status: **PUBLIC GITHUB COMMIT BOUND / ZENODO VERSION UPDATE OPTIONAL**
+Status: **PUBLIC GITHUB COMMIT BOUND / ZENODO v1.2.0 DOI BOUND**
 
 Date: 2026-11-24
 
@@ -73,21 +73,26 @@ SHA-256:
 
 The ZIP hashes identify the frozen packaging artifacts. The Git commit above is the canonical public source binding.
 
-## Zenodo boundary
+## Zenodo binding
 
-Existing Zenodo version DOI:
-`10.5281/zenodo.24467051`
+Zenodo archive version: **1.2.0**
 
-That DOI identifies Archive v1.1.0 and does **not** contain the warrant-crossing corpus.
+Version DOI:
+`10.5281/zenodo.24511927`
 
-Therefore:
-- do not cite v1.1.0 as evidence for the new warrant-crossing execution claims;
-- until a new Zenodo version is deposited, cite the immutable GitHub commit above for those claims;
-- a later Zenodo version may provide an additional archival DOI for this same corpus without changing the GitHub evidence binding.
+Canonical Zenodo citation:
+
+> Mertzman, R. (2026). *FSP-CEG-BIG-STAG Experimental Archive* (Version 1.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24511927
+
+The warrant-crossing evidence is therefore dual-bound:
+- exact public source state → GitHub commit `cec329256c3b34c1697006544d7b95146acd689a`
+- archived scholarly version → Zenodo Version 1.2.0 DOI `10.5281/zenodo.24511927`
+
+Earlier DOI `10.5281/zenodo.24467051` remains the Version 1.1.0 record and should not be substituted for the v1.2.0 warrant-crossing evidence.
 
 ## Canonical citation form for the warrant-crossing evidence
 
-Mertzman, Robert. 2026. *FSP-SRF Warrant-Crossing Executable Evidence Corpus, v1.2.0*. GitHub commit `cec329256c3b34c1697006544d7b95146acd689a`. FSP-CEG-BIG-STAG Experimental Archive.
+Mertzman, R. (2026). *FSP-CEG-BIG-STAG Experimental Archive* (Version 1.2.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24511927. Warrant-crossing source state: GitHub commit `cec329256c3b34c1697006544d7b95146acd689a`.
 
 ## Claim ceiling
 
