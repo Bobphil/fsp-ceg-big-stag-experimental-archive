@@ -1,0 +1,9 @@
+{
+  "name":"fsp-srf-warrant-crossing-2-1",
+  "version":"2.1.0",
+  "private":true,
+  "type":"module",
+  "description":"Adversarial hardening patch for FSP SRF warrant crossing reducer",
+  "scripts":{"test":"node --test test/*.test.js","test:core":"node --test test/acceptance.test.js test/invariants.test.js test/regression.test.js","test:hardening":"node --test test/hardening.test.js"},
+  "engines":{"node":">=20"}
+}
