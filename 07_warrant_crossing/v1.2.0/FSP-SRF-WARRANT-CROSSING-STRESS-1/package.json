@@ -1,0 +1,11 @@
+{
+  "name": "fsp-srf-warrant-crossing-stress-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adversarial stress harness for FSP-SRF-WARRANT-CROSSING-2",
+  "scripts": {
+    "test:adversarial": "node --test test/adversarial.test.js"
+  },
+  "engines": {"node": ">=20"}
+}
