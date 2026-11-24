@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this archive, please cite it using the metadata below."
 title: "FSP-CEG-BIG-STAG Experimental Archive"
-version: "1.1.0"
-date-released: "2026-11-23"
+version: "1.2.0"
+date-released: "2026-11-24"
 type: software
-doi: "10.5281/zenodo.24467051"
-url: "https://doi.org/10.5281/zenodo.24467051"
+doi: "10.5281/zenodo.24511927"
+url: "https://doi.org/10.5281/zenodo.24511927"
 authors:
   - family-names: "Mertzman"
     given-names: "Robert"
